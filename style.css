@@ -5,11 +5,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   margin: 2em;
-  background: #cbf1e4;
+  background: white;
   background-image: linear-gradient(
-    black,
-    pink,
-    #cbf1e4
+    white,
+    #C0DFFF
   ); /* change the background colour here - you can specify a solid colour, a gradiant or an image - you can find HEX codes for colours at https://htmlcolorcodes.com/ */
   background-image: cover;
 }
@@ -51,10 +50,11 @@ h5 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 16px;
   border-radius: 10px 10px 10px 10px;
-  background-image: url("https://cdn.glitch.global/1500d7f0-a2c8-489c-88a2-d7899293787b/clouds.jpeg?v=1704340625786");
+  background-image: url("https://cdn.pixabay.com/photo/2020/02/11/11/16/tulip-4839159_1280.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
+  color: white;
   font-family: "PT Serif", serif;
   font-size: 1.5em;
 }
@@ -127,7 +127,7 @@ h5 {
   min-height: 375px;
   border-radius: 10px 10px 10px 10px;
   text-align: center;
-  background-color: green;
+  background-image: url("https://cdn.pixabay.com/photo/2022/03/22/15/27/flower-7085318_1280.jpg");
   color: white;
   font-family: "PT Serif", serif; /* font for <p> text */
   font-size: 14px;
