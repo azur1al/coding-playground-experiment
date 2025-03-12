@@ -12,14 +12,18 @@ var speed = 50;
 
 //function for network error message
 const sent1 = [
-  "Your device is not connected.",
-  "Make sure '[—]' is turned on and in range.",
-  "Now discoverable as '[—]'.",
-  "Connection unsuccessful.",
-  "Your connection is unstable.",
-  "Out of range.",
-  "Unexpected device.",
-  "Bad connection.",
+  "I see you.",
+  "Your camera is on.",
+  "The VPN has reconnected.",
+  "Your information is safe.",
+  "Your email address has been leaked to the dark web.",
+  "Your address has been leaked to the dark web.",
+  "Your microphone is on.",
+  "Your IP address is available.",
+  "The VPN has disconnected.",
+  "Please reconnect to the VPN.",
+  "Can you hear me?",
+  "Look behind you."
 ];
 
 const buttonRetry = document.getElementById("button-network");
