@@ -12,18 +12,17 @@ var speed = 50;
 
 //function for network error message
 const sent1 = [
-  "I see you.",
-  "Your camera is on.",
-  "The VPN has reconnected.",
-  "Your information is safe.",
-  "Your email address has been leaked to the dark web.",
-  "Your address has been leaked to the dark web.",
-  "Your microphone is on.",
-  "Your IP address is available.",
-  "The VPN has disconnected.",
-  "Please reconnect to the VPN.",
-  "Can you hear me?",
-  "Look behind you."
+  "i miss you.",
+  "maybe it was for the best.",
+  "reconnecting...",
+  "memory not found.",
+  "you're thinking about me again.",
+  "you're missing me again.",
+  "connection has been lost.",
+  "i can't remember.",
+  "you can't remember.",
+  "person not found.",
+  "stop looking for me."
 ];
 
 const buttonRetry = document.getElementById("button-network");
@@ -44,16 +43,16 @@ function addEval(evalText) {
 //think about what use you might have for a dropdown menu: you could have someone select their 'mood' and give them an appropriate song, a bit of good or bad advice, an emoji, etc.
 function dropdownFunction() {
   var x = document.getElementById("subject").value;
-  if (x === "flighty") {
-    addEval("🛩️🐦🦅🦋🌪️💭");
-  } else if (x === "vague") {
-    addEval("🥱👽🐙🪼🌘");
-  } else if (x === "joyful") {
-    addEval("😀😍😸👾👻🕺");
-  } else if (x === "cloudy") {
-    addEval("🌦️🌨️🫧🌫️☔⚡🥶");
-  } else if (x === "hangry") {
-    addEval("🍟🥨🌮🥗🍱");
+  if (x === "yellow tulip") {
+    addEval("hopeless love and unrequited love");
+  } else if (x === "forget-me-not") {
+    addEval("true love and memories");
+  } else if (x === "white lotus") {
+    addEval("estranged love");
+  } else if (x === "white cyclamen") {
+    addEval("timid hope, shyness, resignation and goodbye");
+  } else if (x === "blue rose") {
+    addEval("attaining the impossible");
   }
 }
 //end of dropdown function
@@ -61,22 +60,37 @@ function dropdownFunction() {
 //start of haiku function
 //lists of variables: replace all of the 5 and 7 syllable constants in the two arrays below. The more constants you write, the more variety you will have in your poem
 const fiveSyllables = [
-  "jon you are my pet",
-  "garfield was in the oven",
-  "pizza is a dream",
-  "hand over the cheese",
-  "parmesean is life",
-  "i am so hungry",
-  "where did odie go",
-  "get it your damn self",
-  "obey me human",
+  "i spun around",
+  "i was ready to move on",
+  "are they gone?",
+  "i did my best",
+  "it was unravelling",
+  "i shut the door",
+  "i was still a child",
+  "like a baby bird",
+  "i didn't want to hear it",
+  "again and again",
+  "over and over",
+  "like a set of die",
+  "i have to admit i was relieved",
+  "i looked out the window",
+  "the coulds started to gather",
+  "i want to say it's inhuman",
+  "they chased me in my dreams",
+  "i ran from them",
+  "i didn't understand",
+  "this made little sense to me",
+  "then i would step into the dark"
 ];
 const sevenSyllables = [
-  "cheese makes everything better",
-  "the noodles must be wavey",
-  "nothing left to do but sleep",
-  "thinking about lasagne",
-  "yuk, no i don't want salad",
+  "it was almost unsettling to watch",
+  "i vaguely remembered something",
+  "i feel nothing for these individuals",
+  "i have always enjoyed throwing things away",
+  "this is the way the world ends",
+  "they were like great towering sculptures",
+  "i looked at them and they seemed to be disappearing",
+  "i touched their cheek and they touched mine"
 ];
 //code for haiku function (do not edit)
 const buttonHaiku = document.getElementById("button-haiku");
@@ -109,26 +123,47 @@ const textInput = document.getElementById("text-input");
 //search function constants
 //play with Google search function to come up with search terms most relevant to you. Think about how these search terms tell a story. Replace all of the placeholder text below (phrases in red font) with search terms of your own. If you keep the phrases organised alphabetically, you can ensure you have enough results for each word.
 const words = [
-  "art of war free download",
-  "ask izzy",
-  "australian family law issues in the news",
+  "are you still thinking of me? i'm not sure if i really want to know. i hope that you do, but i also hope that you don't.",
+  
+  "because of you, there is nothing i feel i cannot face.",
 
-  "barrister vs lawyer australia",
-  "barrister vs solicitor",
-  "bulk billed therapy",
+  "can you hear me?",
 
-  "can i seek to vary my family court order",
-  "ccs has no cctv",
-  "childcare how expensive",
-
-  "delete search history",
-  "delusional jealousy",
-  "dv stats australia",
-
-  "earliest memories as a child",
-  "emotional manipulation signs",
-
-  "fridge magnets",
+  "do you still remember me?",
+  
+  "everything reminds me of you.",
+  
+  "for how long were our lives intertwined? it feels like forever. it felt like a single second. it feels like too much. it felt like not enough.",
+  
+  "goodbye.",
+  
+  "how often do i haunt you? how often do you find yourself lonely and longing for what we once had? how often do you feel empty of me?",
+  
+  "i often find myself lost in my memories of you. it doesn't take much. take me to church by hosier, season 3 episode 10 of doctor who, snoopy.",
+  
+  "jokes on you, i won that soccer game after all.",
+  
+  "kindness does not know our unhappy ending.",
+  
+  "let me in.",
+  
+  "my childhood memories are filled with you. every time i think of myself as smaller and more naive i think of you. i wonder what that says about us, whether there's more than our relationship not lasting beyond our teen years.",
+  
+  "next time, would you stay? would you wait with my until the sun rose?",
+  
+  "over and over, again and again, i'd choose to stay with you.",
+  
+  "photos fade beneath my hands until we are no longer recognisable. i see your face in my dreams, haunting me with its clarity, until i wake up and you're gone again. three photos. three photos was all i had of us. they're gone, now.",
+  
+  "qu",
+  
+  "remember when we first me? no, neither do i. we were babies, but i imagine we had a good time together.",
+  
+  "slowly, i've been forgetting your face. what once was clear is now muddled, distorted, lost. i've dug so deep into your details that there's nothing left for me to see.",
+  
+  "thank you.",
+  
+  "when we went our seperate ways, i left a part of me with you. i think you left a part of you with me, too. it sits within my heart heavy and heaving and i don't want to let it go. it's selfish of me, i know, but it's all that's left of us now."
 ];
 //search function (do not edit)
 function changeText(e) {
@@ -160,15 +195,15 @@ textInput.addEventListener("input", changeText);
 //start of code for poem
 
 const subjects =
-    "robots, pilgrims, broken families, displaced animals, right-wing militants, cyborgs".split(
+    "i, you, we, they, our souls, our hearts".split(
       ","
     ),
   verbs =
-    "wander,search, cross, kneel to pray in, avoid, survey, sneak across, hide in".split(
+    "search, dig through, sort through, hide within, cry for, yell at, scream at, bleed for, bleed from, remember, reminisce on".split(
       ","
     ),
   objects =
-    "the barren plains,the wilted grasslands, vast wastelands,wildernesses unknown,languishing caravan parks, arid deserts, military bunkers, valleys of ash and bone".split(
+    "our memories, their prejudice, our connection, our love, the wonky park bench, the setting sun, our last meeting, the final meeting place, the end of our connection, our final memory, my heart, your heart, our hearts, our happy ending, our first meeting, our happiest memories, my happiness with you, your happiness with you, your sadness with me, your happiness with me.".split(
       ","
     );
 // set up the counter

@@ -113,7 +113,7 @@ h5 {
   border-radius: 10px 10px 10px 10px;
   text-align: center;
   background-color: white;
-  background-image: url("https://cdn.glitch.com/02600171-b43e-46dd-a21e-bfc0b9a82267%2Fstationery-155143_960_720.png?v=1618796683465"); /* replace this jpg background with an image of your choosing or you can delete this line and just have a plain background */
+  background-image: url("https://cdn.pixabay.com/photo/2018/02/15/14/37/paper-3155438_1280.jpg"); /* replace this jpg background with an image of your choosing or you can delete this line and just have a plain background */
   background-position: center;
   background-size: cover;
   font-size: 28px;
@@ -127,7 +127,7 @@ h5 {
   min-height: 375px;
   border-radius: 10px 10px 10px 10px;
   text-align: center;
-  background-image: url("https://cdn.pixabay.com/photo/2022/03/22/15/27/flower-7085318_1280.jpg");
+  background-image: url("https://cdn.glitch.global/0ac06374-6598-46f1-b501-c400dd7f4d45/41c47f5e-ae9c-43c5-a8fc-e49b15a8ff2a.image.png?v=1742188719549");
   color: white;
   font-family: "PT Serif", serif; /* font for <p> text */
   font-size: 14px;
@@ -153,8 +153,8 @@ h5 {
   border-radius: 10px 10px 10px 10px;
   text-align: left;
   background-color: #000000;
-  background-image: url("https://cdn.glitch.com/02600171-b43e-46dd-a21e-bfc0b9a82267%2FcatBG.gif?v=1620459338357"); /* replace this gif background with an image of your choosing or create your own gif at giphy.com using a plain background and adding effects or just delete the background-image property and you can set the background-color to what you want (it's currently black)*/
-  color: #68d911;
+  background-image: url("https://cdn.glitch.global/0ac06374-6598-46f1-b501-c400dd7f4d45/5a62382a-276a-42dc-a674-1bf32c11262e.image.png?v=1742188402299"); /* replace this gif background with an image of your choosing or create your own gif at giphy.com using a plain background and adding effects or just delete the background-image property and you can set the background-color to what you want (it's currently black)*/
+  color: #FFFFFF;
   font-family: "Source Code Pro", monospace;
   font-size: 14px; 
 }
