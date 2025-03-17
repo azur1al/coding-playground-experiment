@@ -45,7 +45,7 @@
     <!-- end of fonts -->
 
     <!-- title of poem as it should appear in browser tab - edit the text-->
-    <title>Title of Poem</title>
+    <title>Love Letters</title>
 
     <!-- import the webpage's stylesheet (do not edit) -->
     <link rel="stylesheet" href="/style.css" />
@@ -59,9 +59,9 @@
     <div class="column-wide">
       <!-- specifies the width of the card -->
       <div class="cardTitle">
-        <h1>Title of Poem</h1>
+        <h1>Love Letters</h1>
         <!-- the h1 header tag is inherited from the page's 'body' style specified in the stylesheet - if you want to change the h1 font you can create a new class in the stylesheet similar to the specified h3 and h5 classes -->
-        <h5>by Your Name</h5>
+        <h5>by Mollie Houlihan</h5>
         <!-- you can edit the styling of the h5 font in the stylesheet -->
       </div>
     </div>
@@ -71,7 +71,7 @@
       <!-- specifies the width of the card-->
       <div class="cardError">
         <h3>Message Alert</h3>
-        <p id="networkError" class="center">Your data has been leaked.</p>
+        <p id="networkError" class="center">the connection has been severed.</p>
         <hr />
         <button id="button-network" class="buttonNetwork">Retry</button>
       </div>
@@ -86,14 +86,20 @@
       <div class="columnL">
         <!-- specifies the width of the card-->
         <div class="cardNotes">
-          <p>sometimes i think about you.</p>
+          <p>sometimes, i find myself thinking about you.</p>
           <br />
           <!--inserts a line break -->
           <p>i know that i shouldn't,</p>
-          <br />
+          <p>i know that you wouldn't want me to,</p>
           <p>but i still do.</p>
           <br />
-          <p>i miss you.</p>
+          <p>i think about the day we met for the last time,</p>
+          <p>how we sat on a wonky park bench as the sun set behind us,</p>
+          <p>how you told me that you couldn't see me anymore.</p>
+          <br />
+          <p>maybe it was for the best.</p>
+          <br />
+          <p>i still miss you.</p>
           <br />
           <p>
             <img
@@ -121,15 +127,15 @@
         <div class="cardDropdown">
           <!-- edit the cardDropdown class in style.css to change the look -->
           <!-- title of dropdown poem -- edit the title and the option values, making sure the option values then match up with those in the dropdownFunction in the script.js file-->
-          <h2>Moods got me like</h2>
+          <h2>Letters I've Written to You</h2>
           <br />
           <select id="subject" class="text-box" onchange="dropdownFunction()">
-            <option value="">Select a feeling</option>
-            <option value="flighty">flighty</option>
-            <option value="vague">vague</option>
-            <option value="joyful">joyful</option>
-            <option value="cloudy">cloudy</option>
-            <option value="hangry">hangry</option>
+            <option value="">select a memory</option>
+            <option value="yellow tulip">yellow tulip</option>
+            <option value="forget me not">forget me not</option>
+            <option value="white lotus">white lotus</option>
+            <option value="white cyclamen">white cyclamen</option>
+            <option value="blue rose">blue rose</option>
           </select>
           <br />
           <!-- results of dropdown menu go here-->
@@ -144,19 +150,19 @@
         <!-- specifies the width of the card-->
         <div class="cardHaiku">
           <!-- edit the cardHaiku class in style.css to change the look-->
-          <h4>Garfield is hungry</h4>
+          <h4>Memories of Us</h4>
           <!-- once you have replaced the 5 and 7 syllable variables in the script.js file with your own content, 'remix' the poem to see what Haiku generate; once you find three Haiku that you like, replace the below placeholder text by transcribing your poem-->
-          <p id="haiku-1-1">thinking about lasagne</p>
-          <p id="haiku-1-2">the noodles must be wavey</p>
-          <p id="haiku-1-3">i am so hungry</p>
+          <p id="haiku-1-1">i have always enjoyed throwing things away</p>
+          <p id="haiku-1-2">like a set of dice</p>
+          <p id="haiku-1-3">again and again</p>
           <br />
-          <p id="haiku-2-1">jon you are my pet</p>
-          <p id="haiku-2-2">nothing left to do but sleep</p>
-          <p id="haiku-2-3">garfield was in the oven</p>
+          <p id="haiku-2-1">i remember the first time i ever thought</p>
+          <p id="haiku-2-2">i love you</p>
+          <p id="haiku-2-3">you stood still in the dancing field of tulips</p>
           <br />
-          <p id="haiku-3-1">i am so hungry</p>
-          <p id="haiku-3-2">nothing left to do but sleep</p>
-          <p id="haiku-3-3">i am so hungry</p>
+          <p id="haiku-3-1">and so i sit</p>
+          <p id="haiku-3-2">i do nothing but think of you</p>
+          <p id="haiku-3-3">at the end of my dusty and unremarkable life</p>
           <!-- button to remix haiku -->
           <button id="button-haiku" class="buttonHaiku">remix</button>
         </div>
@@ -177,7 +183,7 @@
             id="text-input"
             type="text"
             class="text-box"
-            placeholder="Type a letter"
+            placeholder="type a letter"
             length="1"
           />
           <div id="text-wrapper"></div>
@@ -189,7 +195,7 @@
         <!-- specifies the width of the card -->
         <div class="cardPoem">
           <p>
-            Dystopian dreams (after Nick Monfort's
+            Connection (after Nick Monfort's
             <a href="https://nickm.com/taroko_gorge/original.html"
               >Taroko Gorge</a
             >)
